@@ -1,0 +1,40 @@
+<html>
+<meta charset="UTF-10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head><title>Fibonacci Sequence</title></head>
+<body style="background-image:url(C:/Users/ASUS/Downloads/fibonacci-nature.jpg)">
+	<!-- inline styling//-->
+	<h3 style="text-align:center;color:red;padding:50;font-size:40">Fibonacci Sequence</h3>
+		
+	
+	<script type="text/javascript">
+	
+	
+	
+		var num1 = 0;
+		var num2 = 1;
+		var num3;
+
+		var num = prompt("Enter the range of number",0);
+
+		document.write('<center>'+num1+'<center>'+'<br>');
+		document.write(num2);
+
+		for(var i=3; i<=num;i++)
+		{
+			num3 = num1 + num2;
+			num1 = num2;
+			num2 = num3;
+			document.write('<center>'+'<br>'+num3);
+		}
+
+
+	
+
+	</script>
+
+
+
+
+</body>
+</html>
